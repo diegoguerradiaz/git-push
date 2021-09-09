@@ -1,0 +1,49 @@
+/* basic styling */
+body {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+.banner {
+    background-image: url(https://source.unsplash.com/user/erondu/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+/* font editing */
+
+hi, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:#AED6F1;
+}
+
+/* dynamic links */
+
+a:hover {
+  color: #1F618D;
+}
+
+/* responsiveness code */
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
